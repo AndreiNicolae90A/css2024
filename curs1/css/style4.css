@@ -1,0 +1,12 @@
+input:focus{
+    border: 2px red solid;
+    padding: 7px;
+}
+input:disabled{
+    padding: 25px;
+}
+input:checked{
+    border: 2px solid green;
+    outline: 2px solid orange;
+    width: 25px;
+}

@@ -1,0 +1,25 @@
+div{
+    background-color: blueviolet;
+    border: 5px solid red;
+    margin: 10px;
+    padding: 10px;
+    max-width: fit-content;
+    margin: auto;
+}
+div>div{
+    background-color: antiquewhite;
+    color: red;
+    border: 5px solid blue;
+    margin: 10px auto;
+    padding: 10px;
+    max-width: fit-content;
+
+}
+div>div>div{
+    background-color: aqua;
+    color: brown;
+    border: 5px solid burlywood;
+    margin: 10px auto;
+    padding: 10px;
+
+}
