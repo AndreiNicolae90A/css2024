@@ -1,0 +1,77 @@
+.card-container{
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(auto-fill, minmax(23rem,1fr));
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 2rem;
+    width: 55rem;
+}
+.counter{
+    align-items: center;
+    border-radius: 0.25rem;
+    box-shadow: 2px 3px 4px rgba(0,0,0,0.25);
+    display: flex;
+    height: 23rem;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+.counter{
+    animation: numara 10s linear infinite alternate;
+    background-color: olive;
+    counter-reset: count 0;
+}
+.counter::before{
+    color: #ffffff;
+    content: counter(cifra);
+    font-size: 7rem;
+    line-height: 1.1;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
+}
+@keyframes numara{
+    0%{
+        counter-increment: cifra 0;
+        background-color: rgb(76, 76, 62);
+    }
+    10%{
+        counter-increment: cifra 1;
+        background-color: rgb(188, 188, 17);
+    }
+    20%{
+        counter-increment: cifra 2;
+        background-color: rgb(76, 76, 62);
+    }
+    30%{
+        counter-increment: cifra 3;
+        background-color: rgb(188, 188, 17);
+    }
+    40%{
+        counter-increment: cifra 4;
+        background-color: rgb(76, 76, 62);
+    }
+    50%{
+        counter-increment: cifra 5;
+        background-color: rgb(188, 188, 17);
+    }
+    60%{
+        counter-increment: cifra 6;
+        background-color: rgb(76, 76, 62);
+    }
+    70%{
+        counter-increment: cifra 7;
+        background-color: rgb(188, 188, 17);
+    }
+    80%{
+        counter-increment: cifra 8;
+        background-color: rgb(76, 76, 62);
+    }
+    90%{
+        counter-increment: cifra 9;
+        background-color: rgb(188, 188, 17);
+    }
+    100%{
+        counter-increment: cifra 10;
+        background-color: rgb(76, 76, 62);
+    }
+}
