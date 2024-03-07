@@ -11,13 +11,14 @@
 }
 
 [data-theme="dark"] {
-    --mycolor: rgb(36, 13, 52);
+    --mycolor: rgb(211, 65, 20);
     --mybackground:rgb(33, 8, 72);
     --primary-color: #cdf397;
     --secondary-color: #818cab;
     --font-color: #e1e1ff;
     --bg-color: #161625;
     --heading-color: #818cab;
+    
 }
 
 body {
